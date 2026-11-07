@@ -1,0 +1,240 @@
+{
+ "games": [
+  {
+   "id": "cod1",
+   "name": "Call of Duty (2003)",
+   "folders": [
+    "Call of Duty"
+   ],
+   "mods_dir": "Mods",
+   "loaders": [],
+   "guide": "Call of Duty 1 loads mods from folders.\n\n1. Set your game folder on the Games tab.\n2. Install a mod (zip) - it's extracted into the game's Mods folder.\n3. Launch the game, open Mods in the main menu and enable it.\n\nMost CoD1 mods are .pk3 files placed in the 'Main' or mod subfolder.",
+   "search": "call of duty 1 mod",
+   "gb": 498,
+   "steam": 2620,
+   "note": "Classic maps, skins and community files."
+  },
+  {
+   "id": "cod2",
+   "name": "Call of Duty 2",
+   "folders": [
+    "Call of Duty 2"
+   ],
+   "mods_dir": "",
+   "loaders": [
+    {
+     "name": "CoD2x",
+     "desc": "Community patch for CoD2 (fixes, extra features).",
+     "url": "https://github.com/eyza-cod2/CoD2x"
+    }
+   ],
+   "guide": "1. Set your CoD2 folder.\n2. Install mods; they extract into the game folder as a mod subfolder (e.g. 'mymod').\n3. Launch the game and use Mods in the menu, or start with +set fs_game mymod.",
+   "search": "call of duty 2 mod",
+   "gb": 30,
+   "steam": 2630,
+   "note": "Maps, skins, game files and community tools."
+  },
+  {
+   "id": "cod4",
+   "name": "Call of Duty 4: Modern Warfare",
+   "folders": [
+    "Call of Duty 4",
+    "Call of Duty 4 - Modern Warfare"
+   ],
+   "mods_dir": "mods",
+   "loaders": [
+    {
+     "name": "CoD4x",
+     "desc": "Community client/server patch for CoD4 with mod support and fixes.",
+     "url": "https://cod4x.ovh"
+    }
+   ],
+   "guide": "1. Set your CoD4 folder.\n2. Install the CoD4x client from the Mod Loaders tab (website button) and follow its instructions.\n3. Install mods into the 'mods' folder, then pick them from Mods in the game menu.",
+   "search": "cod4 mod",
+   "gb": 605,
+   "steam": 7940,
+   "note": "A large PC modding community with maps and assets."
+  },
+  {
+   "id": "waw",
+   "name": "Call of Duty: World at War",
+   "folders": [
+    "Call of Duty World at War"
+   ],
+   "mods_dir": "mods",
+   "loaders": [
+    {
+     "name": "Plutonium T4",
+     "desc": "Plutonium client for World at War (requires owning the game). Downloads the official Plutonium updater; on first run point it at your game folder. An online account on plutonium.pw is needed to play.",
+     "url": "https://plutonium.pw",
+     "direct": "https://cdn.plutonium.pw/updater/plutonium.exe"
+    }
+   ],
+   "guide": "1. Set your WaW folder.\n2. Download the Plutonium updater from the Mod Loaders tab, run it, and point it at this folder.\n3. Install mods; they go into the game's mods folder or Plutonium's storage folder per the mod's readme.",
+   "search": "cod waw mod",
+   "gb": 2122,
+   "steam": 10090,
+   "note": "Custom Zombies maps, campaign mods and assets."
+  },
+  {
+   "id": "mw2",
+   "name": "Modern Warfare 2 (2009)",
+   "folders": [
+    "Call of Duty Modern Warfare 2"
+   ],
+   "mods_dir": "mods",
+   "loaders": [
+    {
+     "name": "AlterWare Launcher (IW4x)",
+     "desc": "Official launcher for IW4x and other AlterWare clients. Requires owning the game.",
+     "url": "https://alterware.dev",
+     "github": "mxve/alterware-launcher",
+     "asset": "launcher"
+    }
+   ],
+   "guide": "1. Set your MW2 folder.\n2. Download the AlterWare launcher from Mod Loaders - it's placed in your game folder.\n3. Run it once; it installs/updates IW4x.\n4. Put mods in the 'mods' folder and enable them in-game.",
+   "search": "iw4x mod",
+   "gb": 3291,
+   "steam": 10180,
+   "note": "Community-made visual and gameplay mods."
+  },
+  {
+   "id": "mw3",
+   "name": "Modern Warfare 3 (2011)",
+   "folders": [
+    "Call of Duty Modern Warfare 3"
+   ],
+   "mods_dir": "mods",
+   "loaders": [
+    {
+     "name": "Plutonium IW5",
+     "desc": "Plutonium client for MW3. Downloads the official Plutonium updater; on first run point it at your game folder. An online account on plutonium.pw is needed to play.",
+     "url": "https://plutonium.pw",
+     "direct": "https://cdn.plutonium.pw/updater/plutonium.exe"
+    },
+    {
+     "name": "AlterWare Launcher (IW5)",
+     "desc": "Launcher for the IW5 client.",
+     "url": "https://alterware.dev",
+     "github": "mxve/alterware-launcher",
+     "asset": "launcher"
+    }
+   ],
+   "guide": "1. Set your MW3 folder.\n2. Install a loader (Plutonium or AlterWare).\n3. Follow the loader's first-run setup, then drop mods into the mods folder.",
+   "search": "mw3 iw5 mod",
+   "gb": 4603,
+   "steam": 115300,
+   "note": "Community skins and game files."
+  },
+  {
+   "id": "bo1",
+   "name": "Black Ops 1",
+   "folders": [
+    "Call of Duty Black Ops"
+   ],
+   "mods_dir": "mods",
+   "loaders": [
+    {
+     "name": "Plutonium T5",
+     "desc": "Plutonium client for Black Ops 1. Downloads the official Plutonium updater; on first run point it at your game folder. An online account on plutonium.pw is needed to play.",
+     "url": "https://plutonium.pw",
+     "direct": "https://cdn.plutonium.pw/updater/plutonium.exe"
+    }
+   ],
+   "guide": "1. Set your BO1 folder.\n2. Download the Plutonium updater from the Mod Loaders tab and run it and select T5.\n3. Install mods per each mod's readme (usually the mods folder).",
+   "search": "black ops 1 mod plutonium",
+   "gb": 3612,
+   "steam": 42700,
+   "note": "Community files and Zombies-related projects."
+  },
+  {
+   "id": "bo2",
+   "name": "Black Ops 2",
+   "folders": [
+    "Call of Duty Black Ops II"
+   ],
+   "mods_dir": "mods",
+   "loaders": [
+    {
+     "name": "Plutonium T6",
+     "desc": "Plutonium client for Black Ops 2 (zombies and multiplayer). Downloads the official Plutonium updater; on first run point it at your game folder. An online account on plutonium.pw is needed to play.",
+     "url": "https://plutonium.pw",
+     "direct": "https://cdn.plutonium.pw/updater/plutonium.exe"
+    }
+   ],
+   "guide": "1. Set your BO2 folder.\n2. Download the Plutonium updater from the Mod Loaders tab and run it and select T6.\n3. Install mods/scripts per their readme.",
+   "search": "bo2 plutonium mod",
+   "gb": 4987,
+   "steam": 202990,
+   "note": "Community mods and game files."
+  },
+  {
+   "id": "bo3",
+   "name": "Black Ops 3",
+   "folders": [
+    "Call of Duty Black Ops III"
+   ],
+   "mods_dir": "",
+   "loaders": [],
+   "guide": "BO3 has official Steam Workshop mod support.\n\n1. Subscribe to mods on the Steam Workshop for Black Ops III.\n2. Launch the game, open Mods and enable them.\n\nFor non-Workshop mods use 'Install from URL' with a zip; check each mod's readme for the target folder.",
+   "search": "black ops 3 mod",
+   "gb": 8634,
+   "steam": 311210,
+   "note": "Free maps, modes and mods through Steam Workshop."
+  },
+  {
+   "id": "mwr",
+   "name": "Modern Warfare Remastered",
+   "folders": [
+    "Call of Duty Modern Warfare Remastered"
+   ],
+   "mods_dir": "mods",
+   "loaders": [
+    {
+     "name": "H1-Mod",
+     "desc": "Community client for MW Remastered. Requires owning the game.",
+     "url": "https://github.com/auroramod/h1-mod"
+    }
+   ],
+   "guide": "1. Set your MWR folder.\n2. Get H1-Mod from its website and follow its install notes.\n3. Place mods in the mods folder.",
+   "search": "h1 mod call of duty"
+  },
+  {
+   "id": "aw",
+   "name": "Advanced Warfare",
+   "folders": [
+    "Call of Duty Advanced Warfare"
+   ],
+   "mods_dir": "mods",
+   "loaders": [
+    {
+     "name": "S1-Mod",
+     "desc": "Community client for Advanced Warfare.",
+     "url": "https://github.com/auroramod/s1-mod"
+    }
+   ],
+   "guide": "1. Set your AW folder.\n2. Get S1-Mod from its website and follow its notes.\n3. Place mods in the mods folder.",
+   "search": "s1 mod advanced warfare"
+  },
+  {
+   "id": "ghosts",
+   "name": "Ghosts",
+   "folders": [
+    "Call of Duty Ghosts"
+   ],
+   "mods_dir": "mods",
+   "loaders": [
+    {
+     "name": "AlterWare (IW6)",
+     "desc": "AlterWare launcher for Ghosts.",
+     "url": "https://alterware.dev",
+     "github": "mxve/alterware-launcher",
+     "asset": "launcher"
+    }
+   ],
+   "guide": "1. Set your Ghosts folder.\n2. Download the AlterWare launcher and run it to install the IW6 client.\n3. Place mods in the mods folder.",
+   "search": "iw6 ghosts mod"
+  }
+ ],
+ "mods": []
+}
